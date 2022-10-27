@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rosario&display=swap');
+
+:root {
+  --color-light: #fff;
+  --home-bg: #e0cabc;
+  --mcq-bg: #b0b8ff;
+  --result-bg: #ffdf64;
+  --timeout-bg: #f45656;
+  --container-width: 1200px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--home-bg);
+  font-family: 'Raleway', sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+.btn {
+  border-radius: 5px;
+  background-color: #000;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.btn.btn-block {
+  width: 100%;
+}
+
+.d-none {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .mcq-container {
+    margin-top: 7rem !important;
+  }
+
+  .header {
+    width: 100% !important;
+    top: 0;
+    left: 0;
+    border-radius: 0 !important;
+  }
+
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 520px) {
+  html {
+    font-size: 8px;
+  }
+
+  .mcq-container {
+    margin-top: 11rem !important;
+  }
+}

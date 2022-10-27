@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCQ</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/mcq.css">
+</head>
+
+<body>
+
+  <div class="result-container d-none">
+    <div class="card">
+      <img src="./assets/congrats.png" alt="stopwatch">
+      <h2>MCQ Result</h2>
+      <p>You Got <span class="score">7</span> Score</p>
+      <a href="./mcq.html" class="btn btn-block">start again</a>
+    </div>
+  </div>
+
+  <div class="timeout-container d-none">
+    <div class="card">
+      <img src="./assets/stopwatch.png" alt="stopwatch">
+      <h2>time out</h2>
+      <a href="./mcq.html" class="btn btn-block">start again</a>
+    </div>
+  </div>
+
+  <div class="mcq-container">
+    <div class="header">
+      <p>Remaining Time: <span class="timeout">00:10:00</span></p>
+      <button class="btn finish-button">finish</button>
+    </div>
+    <div class="questions"></div>
+  </div>
+
+
+  <script src="./js/app.js"></script>
+</body>
+
+</html>
