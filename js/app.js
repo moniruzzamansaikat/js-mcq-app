@@ -4,7 +4,7 @@ const timeoutContainerUI = document.querySelector('.timeout-container');
 const finishButtonUI = document.querySelector(".finish-button");
 const questionContainerUI = document.querySelector('.questions');
 const mcqContainerUI = document.querySelector('.mcq-container');
-let time = 1; // in minutes
+let time = 10; // in minutes
 let marks = 0;
 
 const questions = [
