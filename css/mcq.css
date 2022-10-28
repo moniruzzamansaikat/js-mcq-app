@@ -104,4 +104,8 @@ body {
   .header .btn {
     margin-top: 1rem;
   }
+
+  .card ul li input {
+    transform: scale(1);
+  }
 }
